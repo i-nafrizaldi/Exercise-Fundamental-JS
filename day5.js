@@ -63,8 +63,7 @@ const result6 = genap(ar1);
 console.log(result6);
 
 //no.7 ================================================================================
-// const angka7 =
-// console.log(angka7);
+
 //no.8 ================================================================================
 const arr81 = [1, 2, 3];
 const arr82 = [4, 5, 6];
@@ -76,7 +75,6 @@ let result8 = concatArr(arr81, arr82);
 console.log(result8);
 
 //no.9 ================================================================================
-const arr9 = [1, 2, 2, 2, 3, 3, 4, 5, 5];
 function duplikat(arr) {
   let hasil9 = [];
   let cek9 = [];
@@ -95,10 +93,8 @@ function duplikat(arr) {
 
   return hasil9;
 }
-
-const nilaiDuplikat = duplikat(arr9);
-
-console.log(nilaiDuplikat);
+const arr9 = [1, 2, 2, 2, 3, 3, 4, 5, 5];
+console.log(duplikat(arr9));
 
 // const arr9 = [2, 1, 2, 2, 3, 3, 4, 5, 5];
 // console.log(arr9.filter((aa, bb, arrr) => arrr.indexOf(aa) !== bb));
@@ -119,9 +115,11 @@ function beda(a) {
 
     if (!cek10.includes(cekNilai10)) {
       cek10.push(cekNilai10);
+      console.log(cek10);
     } else {
       !hasil.includes(cekNilai10);
       hasil.push(cekNilai10);
+      console.log(hasil);
     }
   }
 

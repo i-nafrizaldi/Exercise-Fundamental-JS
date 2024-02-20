@@ -66,6 +66,7 @@ const objAge = arrayOfStudent.findStats("age");
 console.log("Age =", objAge);
 
 console.log(arrayOfStudent.students);
+console.log(arrayOfStudent.students);
 
 // no. 2 ============================================================================
 
@@ -92,4 +93,3 @@ const trans1 = new Transaction("kecap", 1250, 3);
 console.log(trans1.total);
 console.log(trans1, "the total is " + trans1.total);
 
-console.log(arrayOfStudent.students);

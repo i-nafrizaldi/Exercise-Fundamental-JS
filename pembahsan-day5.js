@@ -51,6 +51,7 @@ console.log(sumDuplicat([10, 20, 40, 10, 50, 30, 10, 60, 10]));
 function suit(player) {
   const choices = ["gunting", "batu", "kertas"];
   const compChoice = choices[Math.floor(Math.random() * 2.9)];
+  console.log(compChoice);
 
   if (!choices.includes(player)) {
     return "wrong input";
